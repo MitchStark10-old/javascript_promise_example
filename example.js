@@ -18,6 +18,8 @@ async function testResult() {
         console.log("Error : " + e);
     }
 
+    console.log('testing concurrency');
 }
   
 testResult()
+console.log("This will probably come first...");
